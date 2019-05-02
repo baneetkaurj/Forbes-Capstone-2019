@@ -14,7 +14,6 @@ from sklearn.feature_selection import SelectKBest, f_classif
 # df = pd.concat(li, axis=0, ignore_index=True, sort=False)
 # df = pd.read_csv('2010.csv', encoding='utf-8')
 df = pd.read_csv('2018.csv')
-# df = pd.DataFrame(dfl)
 df.shape
 
 # Checking and removing null values
